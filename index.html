@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Clima em tempo real</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h2>Tempo pelo mundo</h2>
+        <div class="form-input-container">
+          <input type="text" placeholder="Digite a cidade" id="city-input">
+          <button id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div class="wheater-data">
+        <h2> 
+          <i class="fa-solid fa-location-dot"></i>
+          <span id="city"></span>
+          <img src="" alt="bandeira do pais" id="country">
+        </h2>
+        <p id="temperature"> <span>0</span>&deg;C</p>
+        <div id="discription-container">
+          <p id="description"> Nublado </p>
+          <img src="" alt="condições do tempo" id="wheather-icon">
+        </div>
+        <div class="details-container">
+          <p id="humidity">
+            <i class="fa-solid fa-droplet"></i>
+            <span> 0% </span>
+          </p>
+          <p id="humidity">
+            <i class="fa-solid fa-wind"></i>
+            <span> 0km/h </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+
+    
+  </body>
+</html>
